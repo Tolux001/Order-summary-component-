@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+@font-face {
+    font-family: "Red Hat Display";
+    src: url('design/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf');
+}
+
+/* Declaring Global Scope Variable*/
+:root {
+    /*Fonts family*/
+
+    --fontfamily: "Red Hat Display";
+
+    /*colors*/
+
+    --Paleblue: hsla(225, 100%, 94%, 0.342);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(228, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 15px 0;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+body {
+    overflow: auto;
+    font-family: var(--fontfamily);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card {
+    background-color: var(--Verypaleblue);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    max-width: 85%;
+    border-radius: 15px;
+    animation: tolux 4s infinite;
+}
+@keyframes tolux {
+    50% {box-shadow: 1px 1px 5px 5px var(--Paleblue);}
+}
+.card-img img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 100%;
+}
+.section-holder {
+    padding: 20px 30px;
+    text-align: center;
+}
+section h1 {
+    color: var(--Darkblue);
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+p,
+a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--Desaturatedblue);
+    text-decoration: none;
+}
+.section-payment {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--Paleblue);
+    margin: 25px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.section-payment h3 { 
+    color: var(--Darkblue);
+}
+.section-payment a {
+    text-align: right;
+    padding-top: 10px;
+    text-decoration: underline;
+    color: var(--Brightblue);
+    font-weight: 900;
+}
+.section-payment a:hover {
+    color: var(--Desaturatedblue);
+}
+.btn-btn {
+    background-color: var(--Brightblue);
+    width: 90%;
+    padding: 15px 0;
+    color: var(--Verypaleblue);
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    box-shadow: 0 10px 5px var(--Paleblue);
+    margin-bottom: 15px;
+}
+.btn-btn:hover {
+    background-color: var(--Desaturatedblue);
+}
+@media(max-width:375px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .section-holder {
+        padding: 15px;
+    }
+}
