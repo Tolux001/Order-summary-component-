@@ -32,8 +32,8 @@ You can best use [FireShot](https://getfireshot.com/) to take the screenshot.
 
 ### Links
 
-- Frontend Mentor URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Frontend Mentor URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-card-component-semantic-markup-css-grid-css-flex-eMvxnkSPzd)
+- Live Site URL: [Live site URL](https://order-purchase-card.netlify.app/)
 
 ## My process
 
