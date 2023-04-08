@@ -94,6 +94,7 @@ a {
 }
 .section-payment h2 { 
     color: var(--Darkblue);
+    font-size: 22px;
 }
 .section-payment a {
     text-align: right;
