@@ -38,9 +38,9 @@
 body {
     overflow: auto;
     font-family: var(--fontfamily);
-    background-image: url(images/pattern-background-desktop.svg);
+    background-image: url(images/pattern-background-desktop.svg),#E1E9Ff;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat, no-repeat;
 }
 .main {
     position: relative;
