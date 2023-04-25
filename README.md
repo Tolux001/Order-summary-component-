@@ -53,7 +53,7 @@ You can best use [FireShot](https://getfireshot.com/) to take the screenshot.
 
 ## Author
 
-- Website - [Toluwalase](https://www.linkedin.com/in/adejuwon-toluwalase-660580234)
+- Website - [Toluwalase](https://www.linkedin.com/in/tolux)
 
 - Frontend Mentor - [@Tolux001](https://www.frontendmentor.io/profile/Tolux001)
 
